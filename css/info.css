@@ -1,0 +1,39 @@
+.info__wrapper   {
+   
+}
+.info {
+   padding: 35rem 0 25rem;
+}
+.info .img {
+   margin-bottom: 3rem;
+}
+.info .list {
+   padding: 3rem;
+   background-color: var(--first-brand-color);
+}
+.info .item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.info .item:not(:last-child) {
+   margin-bottom: 10rem;
+}
+@media screen and (min-width: 1440px)  {
+   .info .list {
+      display: flex;
+      justify-content: space-between;
+   }
+   .info .item {
+      width: 33%;
+   }
+   .info .img {
+      height: 30rem;
+      object-fit: cover;
+   }
+   .info .item:not(:last-child) {
+      margin-bottom: 0;
+   }
+}
+
+
